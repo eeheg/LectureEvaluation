@@ -1,0 +1,8 @@
+
+
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(˜İâœÿÿÿÿÿ8ıÀ´Ï£1
+\
+java:S1118
+":Add a private constructor to hide the implicit public one.(›¡ÔÅøÿÿÿÿ8ıÀ´Ï£1
+V
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¯•ç°8€Á´Ï£1
