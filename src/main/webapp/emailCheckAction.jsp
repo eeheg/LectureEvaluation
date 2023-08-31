@@ -40,6 +40,6 @@
         script.println("location.href='userLogin.jsp'");
         script.println("</script>");
         script.close();
-        return;
+        //return;
     }
 %>

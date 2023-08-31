@@ -1,7 +1,5 @@
 <%@ page pageEncoding="UTF-8" contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="user.UserDTO"%>
 <%@ page import="user.UserDAO"%>
-<%@ page import="util.SHA256"%>
 <%@ page import="java.io.PrintWriter"%>
 <%
     request.setCharacterEncoding("UTF-8");  //사용자로부터 입력받은 정보는 모두 UTF8로 처리
