@@ -107,7 +107,7 @@
                 <option value="최신순">최신순</option>
                 <option value="추천순" <% if(searchType.equals("추천순")) out.println("selected"); %>>추천순</option>
             </select>
-            <input type="text" name="search" class="form-control mx-1 mt-2" placeholder="내용을 입력하세요.">
+            <input type="text" name="search" class="form-control mx-1 mt-2" placeholder="내용을 입력하세요."/>
             <button type="submit" class="btn btn-primary mx-1 mt-2">검색</button>
             <a class="btn btn-primary mx-1 mt-2" data-toggle="modal" href="#registerModal">등록하기</a>
             <a class="btn btn-danger mx-1 mt-2" data-toggle="modal" href="#reportModal">신고</a>
@@ -163,11 +163,7 @@
             <%
                 } else {
             %>
-                <a class="page-link" href="./index.jsp?
-                    lectureDivide=<%=URLEncoder.encode(lectureDivide,"UTF-8")%>
-                    &searchType=<%=URLEncoder.encode(searchType,"UTF-8")%>
-                    &search=<%=URLEncoder.encode(search,"UTF-8")%>
-                    &pageNumber=<%=pageNumber - 1%>"
+                <a class="page-link" href="./index.jsp?lectureDivide=<%=URLEncoder.encode(lectureDivide,"UTF-8")%>&searchType=<%=URLEncoder.encode(searchType,"UTF-8")%>&search=<%=URLEncoder.encode(search,"UTF-8")%>&pageNumber=<%=pageNumber - 1%>"
                 >
                     이전
                 </a>
@@ -183,11 +179,7 @@
             <%
             } else {
             %>
-            <a class="page-link" href="./index.jsp?
-                    lectureDivide=<%=URLEncoder.encode(lectureDivide,"UTF-8")%>
-                    &searchType=<%=URLEncoder.encode(searchType,"UTF-8")%>
-                    &search=<%=URLEncoder.encode(search,"UTF-8")%>
-                    &pageNumber=<%=pageNumber + 1%>"
+            <a class="page-link" href="./index.jsp?lectureDivide=<%=URLEncoder.encode(lectureDivide,"UTF-8")%>&searchType=<%=URLEncoder.encode(searchType,"UTF-8")%>&search=<%=URLEncoder.encode(search,"UTF-8")%>&pageNumber=<%=pageNumber + 1%>"
             >
                 다음
             </a>

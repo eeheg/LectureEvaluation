@@ -1,0 +1,16 @@
+
+{
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô»…°ùÿÿÿÿ8µŒÈÒ¥1
+’
+java:S1319,"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÆÅ›úÿÿÿÿ8¶ŒÈÒ¥1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï²¾çÿÿÿÿÿ8¶ŒÈÒ¥1
+m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì”­Â8¶ŒÈÒ¥1
+m	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ìşø8¶ŒÈÒ¥1
+m	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û‡êË8¶ŒÈÒ¥1
+s	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Æ„ùÿÿÿÿ8¶ŒÈÒ¥1
+f
+java:S2583'"DChange this condition so that it does not always evaluate to "false"(±‰ÂÉøÿÿÿÿ8‰ÄÈÒ¥1
+g
+java:S2583†"DChange this condition so that it does not always evaluate to "false"(±‰ÂÉøÿÿÿÿ8ŠÄÈÒ¥1
+f
+java:S2583r"DChange this condition so that it does not always evaluate to "false"(±‰ÂÉøÿÿÿÿ8êÈÒ¥1
